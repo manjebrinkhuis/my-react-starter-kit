@@ -31,4 +31,7 @@ module.exports = {
     hotOnly: true,
   },
   plugins: [new webpack.HotModuleReplacementPlugin()],
+  optimization: {
+    minimize: true
+  }
 }

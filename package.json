@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npm run lint && webpack-dev-server --mode development",
     "test": "jest",
-    "lint": "eslint ./src"
+    "lint": "eslint ./src",
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
