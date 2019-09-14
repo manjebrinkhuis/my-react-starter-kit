@@ -6,14 +6,14 @@ import './App.css'
 function App (props) {
   return (
     <div className='App'>
-      <h1>{`It's ${props.what} working!`}</h1>
+      <h1>{`Your ${props.name} is working!`}</h1>
       <p>Time to do something useful.</p>
     </div>
   )
 }
 
 App.propTypes = {
-  what: PropTypes.string
+  name: PropTypes.string
 }
 
 export default App
