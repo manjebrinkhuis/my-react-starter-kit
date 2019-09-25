@@ -15,6 +15,7 @@ module.exports = {
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
+    jest: 'readonly',
     test: 'readonly',
     expect: 'readonly',
     module: 'readonly'
